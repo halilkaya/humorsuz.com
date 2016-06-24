@@ -1,0 +1,1042 @@
+[
+  {
+    "model": "headline.Category",
+    "pk": 1,
+    "fields": {
+      "name": "famous"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 2,
+    "fields": {
+      "name": "game"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 3,
+    "fields": {
+      "name": "group"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 4,
+    "fields": {
+      "name": "organizationMember"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 5,
+    "fields": {
+      "name": "vehicle"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 6,
+    "fields": {
+      "name": "punishment"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 7,
+    "fields": {
+      "name": "town"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 8,
+    "fields": {
+      "name": "weapon"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 9,
+    "fields": {
+      "name": "bug"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 10,
+    "fields": {
+      "name": "noun"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 11,
+    "fields": {
+      "name": "weather"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 12,
+    "fields": {
+      "name": "cigar"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 13,
+    "fields": {
+      "name": "number"
+    }
+  },
+  {
+    "model": "headline.Category",
+    "pk": 14,
+    "fields": {
+      "name": "unit"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Guido Van Rossum",
+      "image": "guido.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Alva Noto",
+      "image": "alva.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "name": "Tom Odell",
+      "image": "tom.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "name": "Evgeny Grinko",
+      "image": "evgeny.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "Hegel",
+      "image": "hegel.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 6,
+    "fields": {
+      "category": 2,
+      "name": "saklambaç",
+      "image": "saklambac.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 7,
+    "fields": {
+      "category": 2,
+      "name": "körebe",
+      "image": "korebe.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 8,
+    "fields": {
+      "category": 2,
+      "name": "halay",
+      "image": "halay.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 9,
+    "fields": {
+      "category": 2,
+      "name": "zeybek",
+      "image": "zeybek.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 10,
+    "fields": {
+      "category": 2,
+      "name": "seksek",
+      "image": "seksek.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 11,
+    "fields": {
+      "category": 2,
+      "name": "piyano",
+      "image": "piyano.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 12,
+    "fields": {
+      "category": 2,
+      "name": "kumar",
+      "image": "kumar.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 13,
+    "fields": {
+      "category": 3,
+      "name": "veliler",
+      "image": "veliler.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 14,
+    "fields": {
+      "category": 3,
+      "name": "emekliler",
+      "image": "emekliler.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 15,
+    "fields": {
+      "category": 4,
+      "name": "sevenleri",
+      "image": "birileri.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 16,
+    "fields": {
+      "category": 4,
+      "name": "fanları",
+      "image": "fan.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 17,
+    "fields": {
+      "category": 4,
+      "name": "ayranları",
+      "image": "ayran.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 18,
+    "fields": {
+      "category": 5,
+      "name": "metrobüs",
+      "image": "metrobus.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 19,
+    "fields": {
+      "category": 5,
+      "name": "at",
+      "image": "at.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 20,
+    "fields": {
+      "category": 5,
+      "name": "Tom Odell",
+      "image": "tom.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 21,
+    "fields": {
+      "category": 5,
+      "name": "Evgeny Grinko",
+      "image": "evgeny.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 22,
+    "fields": {
+      "category": 5,
+      "name": "selfie çubuğu",
+      "image": "selfie.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 23,
+    "fields": {
+      "category": 5,
+      "name": "Boeing 777",
+      "image": "b77.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 24,
+    "fields": {
+      "category": 6,
+      "name": "idam",
+      "image": "idam.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 25,
+    "fields": {
+      "category": 6,
+      "name": "hapis",
+      "image": "hapis.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 26,
+    "fields": {
+      "category": 6,
+      "name": "halay",
+      "image": "halay.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 27,
+    "fields": {
+      "category": 6,
+      "name": "zeybek",
+      "image": "zeybek.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 28,
+    "fields": {
+      "category": 7,
+      "name": "Burdur",
+      "image": "burdur.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 29,
+    "fields": {
+      "category": 7,
+      "name": "Bilecik",
+      "image": "bilecik.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 30,
+    "fields": {
+      "category": 7,
+      "name": "Ankara",
+      "image": "ankara.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 31,
+    "fields": {
+      "category": 7,
+      "name": "Karabük",
+      "image": "karabuk.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 32,
+    "fields": {
+      "category": 7,
+      "name": "Bolu",
+      "image": "bolu.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 33,
+    "fields": {
+      "category": 7,
+      "name": "Samsun",
+      "image": "samsun.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 34,
+    "fields": {
+      "category": 7,
+      "name": "Adana",
+      "image": "adana.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 35,
+    "fields": {
+      "category": 7,
+      "name": "Adıyaman",
+      "image": "adiyaman.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 36,
+    "fields": {
+      "category": 8,
+      "name": "roketatar",
+      "image": "roketatar.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 37,
+    "fields": {
+      "category": 8,
+      "name": "muz",
+      "image": "muz.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 38,
+    "fields": {
+      "category": 8,
+      "name": "ak-47",
+      "image": "ak-47.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 39,
+    "fields": {
+      "category": 8,
+      "name": "gülle",
+      "image": "gulle.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 40,
+    "fields": {
+      "category": 8,
+      "name": "Evgeny Grinko",
+      "image": "evgeny.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 41,
+    "fields": {
+      "category": 8,
+      "name": "nükleer silah",
+      "image": "nukleer.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 42,
+    "fields": {
+      "category": 8,
+      "name": "selfie çubuğu",
+      "image": "selfie.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 43,
+    "fields": {
+      "category": 9,
+      "name": "lama",
+      "image": "lama.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 44,
+    "fields": {
+      "category": 9,
+      "name": "menemen",
+      "image": "menemen.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 45,
+    "fields": {
+      "category": 9,
+      "name": "selfie çubuğu",
+      "image": "selfie.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 46,
+    "fields": {
+      "category": 10,
+      "name": "buzdolabı",
+      "image": "buzdolap.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 47,
+    "fields": {
+      "category": 10,
+      "name": "menemen",
+      "image": "menemen.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 48,
+    "fields": {
+      "category": 10,
+      "name": "gülle",
+      "image": "gulle.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 49,
+    "fields": {
+      "category": 10,
+      "name": "at",
+      "image": "at.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 50,
+    "fields": {
+      "category": 10,
+      "name": "muz",
+      "image": "muz.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 51,
+    "fields": {
+      "category": 10,
+      "name": "Tom Odell",
+      "image": "tom.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 52,
+    "fields": {
+      "category": 10,
+      "name": "ak-47",
+      "image": "ak-47.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 53,
+    "fields": {
+      "category": 10,
+      "name": "roketatar",
+      "image": "roketatar.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 54,
+    "fields": {
+      "category": 10,
+      "name": "Macbook Pro",
+      "image": "macbook.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 55,
+    "fields": {
+      "category": 10,
+      "name": "sigara",
+      "image": "sigara.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 56,
+    "fields": {
+      "category": 10,
+      "name": "Evgeny Grinko",
+      "image": "evgeny.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 57,
+    "fields": {
+      "category": 10,
+      "name": "nükleer silah",
+      "image": "nukleer.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 58,
+    "fields": {
+      "category": 10,
+      "name": "Boeing 777",
+      "image": "b77.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 59,
+    "fields": {
+      "category": 10,
+      "name": "lama",
+      "image": "lama.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 60,
+    "fields": {
+      "category": 10,
+      "name": "metrobüs",
+      "image": "metrobus.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 61,
+    "fields": {
+      "category": 10,
+      "name": "selfie çubuğu",
+      "image": "selfie.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 62,
+    "fields": {
+      "category": 11,
+      "name": "kar",
+      "image": "kar.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 63,
+    "fields": {
+      "category": 11,
+      "name": "yağmur",
+      "image": "piyano.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 64,
+    "fields": {
+      "category": 11,
+      "name": "sıcak",
+      "image": "asfalt.png",
+      "image_position": 1
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 65,
+    "fields": {
+      "category": 12,
+      "name": "sigara",
+      "image": "sigara.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 66,
+    "fields": {
+      "category": 12,
+      "name": "pipo tütünü",
+      "image": "pipo.png",
+      "image_position": 0
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 67,
+    "fields": {
+      "category": 13,
+      "name": "4"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 68,
+    "fields": {
+      "category": 13,
+      "name": "8"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 69,
+    "fields": {
+      "category": 13,
+      "name": "15"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 70,
+    "fields": {
+      "category": 13,
+      "name": "16"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 71,
+    "fields": {
+      "category": 13,
+      "name": "23"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 72,
+    "fields": {
+      "category": 13,
+      "name": "42"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 73,
+    "fields": {
+      "category": 13,
+      "name": "78"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 74,
+    "fields": {
+      "category": 14,
+      "name": "piksel"
+    }
+  },
+  {
+    "model": "headline.Object",
+    "pk": 75,
+    "fields": {
+      "category": 14,
+      "name": "santim"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 1,
+    "fields": {
+      "text": "{random:famous} {random:organizationMember} ile iftarda buluştu"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 2,
+    "fields": {
+      "text": "{random:game} oynarken üzerine {random:vehicle} düşen çocuk yoğun bakımda"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 3,
+    "fields": {
+      "text": "{random:famous, True, e} {random:punishment} şoku"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 4,
+    "fields": {
+      "text": "Bu görüntü bugün çekildi, gören şok oldu"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 5,
+    "fields": {
+      "text": "Ünlü oyuncu twitter hesabından paylaştığı fotoğrafla hayranlarını şaşırttı"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 6,
+    "fields": {
+      "text": "{random:town, True, de} tarihi {random:noun} bulundu"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 7,
+    "fields": {
+      "text": "{random:town, True, de} {random:weapon, False, li} kavga: {random:number} yaralı"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 8,
+    "fields": {
+      "text": "{random:town, True, li} mucit evde {random:noun} yaptı"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 9,
+    "fields": {
+      "text": "Meteoroloji uyardı, haftasonu {random:noun} yağabilir"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 10,
+    "fields": {
+      "text": "Uzmanlar yanıtladı: {random:noun} yersek orucumuz bozulur mu?"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 11,
+    "fields": {
+      "text": "{random:town, True, de} yapılan kazıda {random:number} {random:unit} {random:noun} ele geçirildi"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 12,
+    "fields": {
+      "text": "{random:town, True, li} bir genç kadın sevgilisini {random:weapon} ile bıçakladı"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 13,
+    "fields": {
+      "text": "Oruçluyken {random:noun} kokusu nasıl önlenir?"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 14,
+    "fields": {
+      "text": "Kayıp {random:noun} ormanlık alanda {random:game} oynarken bulundu"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 15,
+    "fields": {
+      "text": "{random:town, True, de} {random:famous} alarmı"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 16,
+    "fields": {
+      "text": "{random:town, True, de} {random:number} sene sonra ilk defa {random:noun} yağdı"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 17,
+    "fields": {
+      "text": "{random:town, True, de} şüpheli {random:noun} paniği"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 18,
+    "fields": {
+      "text": "Hollywood filmlerini aratmayacak görüntüler!"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 19,
+    "fields": {
+      "text": "Bu sene zam şampiyonu {random:noun}"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 20,
+    "fields": {
+      "text": "{random:weather, False, de} ne yapacağını şaşıran halk asfaltta {random:noun} pişirdi"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 21,
+    "fields": {
+      "text": "Yoğun {random:weather} yağışı {random:vehicle} sürücülerini çileden çıkardı"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 22,
+    "fields": {
+      "text": "{random:town, True, de} {random:cigar} zammı protesto edildi"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 23,
+    "fields": {
+      "text": "{random:town, True, de} bu sabah yapılan operasyonda {random:number} adet kaçak {random:weapon} ele geçirildi"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 24,
+    "fields": {
+      "text": "{random:town, True, de} tarım arazilerinde {random:bug} istilası"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 25,
+    "fields": {
+      "text": "{random:town, True, de} yasağa sinirlenip kepçeyle {random:noun} yediler"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 26,
+    "fields": {
+      "text": "Asfaltta {random:noun} pişirdiler"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 27,
+    "fields": {
+      "text": "Bilim dünyasını şok eden keşif!"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 28,
+    "fields": {
+      "text": "{random:famous} öyle bir şey dedi ki"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 29,
+    "fields": {
+      "text": "İşte villada {random:game} oynarken yakalanan o ünlüler!"
+    }
+  },
+  {
+    "model": "headline.Headline",
+    "pk": 30,
+    "fields": {
+      "text": "Ünlü şarkıcı {random:famous}, {random:game} oynayan arkadaşını {random:number} yerinden bıçakladı"
+    }
+  }
+]

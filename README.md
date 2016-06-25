@@ -1,2 +1,2 @@
-# humorsuz.com
-humorsuz.com
+# humorsuz.org
+humorsuz.org

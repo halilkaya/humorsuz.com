@@ -3,98 +3,112 @@
     "model": "headline.Category",
     "pk": 1,
     "fields": {
-      "name": "famous"
+      "name": "famous",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 2,
     "fields": {
-      "name": "game"
+      "name": "game",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 3,
     "fields": {
-      "name": "group"
+      "name": "group",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 4,
     "fields": {
-      "name": "organizationMember"
+      "name": "organizationMember",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 5,
     "fields": {
-      "name": "vehicle"
+      "name": "vehicle",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 6,
     "fields": {
-      "name": "punishment"
+      "name": "punishment",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 7,
     "fields": {
-      "name": "town"
+      "name": "town",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 8,
     "fields": {
-      "name": "weapon"
+      "name": "weapon",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 9,
     "fields": {
-      "name": "bug"
+      "name": "bug",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 10,
     "fields": {
-      "name": "noun"
+      "name": "noun",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 11,
     "fields": {
-      "name": "weather"
+      "name": "weather",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 12,
     "fields": {
-      "name": "cigar"
+      "name": "cigar",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 13,
     "fields": {
-      "name": "number"
+      "name": "number",
+      "is_active": true
     }
   },
   {
     "model": "headline.Category",
     "pk": 14,
     "fields": {
-      "name": "unit"
+      "name": "unit",
+      "is_active": true
     }
   },
   {
@@ -104,7 +118,8 @@
       "category": 1,
       "name": "Guido Van Rossum",
       "image": "guido.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -114,7 +129,8 @@
       "category": 1,
       "name": "Alva Noto",
       "image": "alva.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -124,7 +140,8 @@
       "category": 1,
       "name": "Tom Odell",
       "image": "tom.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -134,7 +151,8 @@
       "category": 1,
       "name": "Evgeny Grinko",
       "image": "evgeny.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -144,7 +162,8 @@
       "category": 1,
       "name": "Hegel",
       "image": "hegel.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -154,7 +173,8 @@
       "category": 2,
       "name": "saklambaç",
       "image": "saklambac.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -164,7 +184,8 @@
       "category": 2,
       "name": "körebe",
       "image": "korebe.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -174,7 +195,8 @@
       "category": 2,
       "name": "halay",
       "image": "halay.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -184,7 +206,8 @@
       "category": 2,
       "name": "zeybek",
       "image": "zeybek.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -194,7 +217,8 @@
       "category": 2,
       "name": "seksek",
       "image": "seksek.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -204,7 +228,8 @@
       "category": 2,
       "name": "piyano",
       "image": "piyano.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -214,7 +239,8 @@
       "category": 2,
       "name": "kumar",
       "image": "kumar.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -224,7 +250,8 @@
       "category": 3,
       "name": "veliler",
       "image": "veliler.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -234,7 +261,8 @@
       "category": 3,
       "name": "emekliler",
       "image": "emekliler.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -244,7 +272,8 @@
       "category": 4,
       "name": "sevenleri",
       "image": "birileri.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -254,7 +283,8 @@
       "category": 4,
       "name": "fanları",
       "image": "fan.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -264,7 +294,8 @@
       "category": 4,
       "name": "ayranları",
       "image": "ayran.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -274,7 +305,8 @@
       "category": 5,
       "name": "metrobüs",
       "image": "metrobus.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -284,7 +316,8 @@
       "category": 5,
       "name": "at",
       "image": "at.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -294,7 +327,8 @@
       "category": 5,
       "name": "Tom Odell",
       "image": "tom.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -304,7 +338,8 @@
       "category": 5,
       "name": "Evgeny Grinko",
       "image": "evgeny.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -314,7 +349,8 @@
       "category": 5,
       "name": "selfie çubuğu",
       "image": "selfie.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -324,7 +360,8 @@
       "category": 5,
       "name": "Boeing 777",
       "image": "b77.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -334,7 +371,8 @@
       "category": 6,
       "name": "idam",
       "image": "idam.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -344,7 +382,8 @@
       "category": 6,
       "name": "hapis",
       "image": "hapis.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -354,7 +393,8 @@
       "category": 6,
       "name": "halay",
       "image": "halay.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -364,7 +404,8 @@
       "category": 6,
       "name": "zeybek",
       "image": "zeybek.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -374,7 +415,8 @@
       "category": 7,
       "name": "Burdur",
       "image": "burdur.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -384,7 +426,8 @@
       "category": 7,
       "name": "Bilecik",
       "image": "bilecik.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -394,7 +437,8 @@
       "category": 7,
       "name": "Ankara",
       "image": "ankara.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -404,7 +448,8 @@
       "category": 7,
       "name": "Karabük",
       "image": "karabuk.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -414,7 +459,8 @@
       "category": 7,
       "name": "Bolu",
       "image": "bolu.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -424,7 +470,8 @@
       "category": 7,
       "name": "Samsun",
       "image": "samsun.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -434,7 +481,8 @@
       "category": 7,
       "name": "Adana",
       "image": "adana.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -444,7 +492,8 @@
       "category": 7,
       "name": "Adıyaman",
       "image": "adiyaman.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -454,7 +503,8 @@
       "category": 8,
       "name": "roketatar",
       "image": "roketatar.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -464,7 +514,8 @@
       "category": 8,
       "name": "muz",
       "image": "muz.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -474,7 +525,8 @@
       "category": 8,
       "name": "ak-47",
       "image": "ak-47.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -484,7 +536,8 @@
       "category": 8,
       "name": "gülle",
       "image": "gulle.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -494,7 +547,8 @@
       "category": 8,
       "name": "Evgeny Grinko",
       "image": "evgeny.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -504,7 +558,8 @@
       "category": 8,
       "name": "nükleer silah",
       "image": "nukleer.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -514,7 +569,8 @@
       "category": 8,
       "name": "selfie çubuğu",
       "image": "selfie.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -524,7 +580,8 @@
       "category": 9,
       "name": "lama",
       "image": "lama.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -534,7 +591,8 @@
       "category": 9,
       "name": "menemen",
       "image": "menemen.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -544,7 +602,8 @@
       "category": 9,
       "name": "selfie çubuğu",
       "image": "selfie.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -554,7 +613,8 @@
       "category": 10,
       "name": "buzdolabı",
       "image": "buzdolap.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -564,7 +624,8 @@
       "category": 10,
       "name": "menemen",
       "image": "menemen.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -574,7 +635,8 @@
       "category": 10,
       "name": "gülle",
       "image": "gulle.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -584,7 +646,8 @@
       "category": 10,
       "name": "at",
       "image": "at.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -594,7 +657,8 @@
       "category": 10,
       "name": "muz",
       "image": "muz.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -604,7 +668,8 @@
       "category": 10,
       "name": "Tom Odell",
       "image": "tom.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -614,7 +679,8 @@
       "category": 10,
       "name": "ak-47",
       "image": "ak-47.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -624,7 +690,8 @@
       "category": 10,
       "name": "roketatar",
       "image": "roketatar.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -634,7 +701,8 @@
       "category": 10,
       "name": "Macbook Pro",
       "image": "macbook.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -644,7 +712,8 @@
       "category": 10,
       "name": "sigara",
       "image": "sigara.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -654,7 +723,8 @@
       "category": 10,
       "name": "Evgeny Grinko",
       "image": "evgeny.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -664,7 +734,8 @@
       "category": 10,
       "name": "nükleer silah",
       "image": "nukleer.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -674,7 +745,8 @@
       "category": 10,
       "name": "Boeing 777",
       "image": "b77.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -684,7 +756,8 @@
       "category": 10,
       "name": "lama",
       "image": "lama.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -694,7 +767,8 @@
       "category": 10,
       "name": "metrobüs",
       "image": "metrobus.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -704,7 +778,8 @@
       "category": 10,
       "name": "selfie çubuğu",
       "image": "selfie.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -714,7 +789,8 @@
       "category": 11,
       "name": "kar",
       "image": "kar.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -724,7 +800,8 @@
       "category": 11,
       "name": "yağmur",
       "image": "piyano.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -734,7 +811,8 @@
       "category": 11,
       "name": "sıcak",
       "image": "asfalt.png",
-      "image_position": 1
+      "image_position": 1,
+      "is_active": true
     }
   },
   {
@@ -744,7 +822,8 @@
       "category": 12,
       "name": "sigara",
       "image": "sigara.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -754,7 +833,8 @@
       "category": 12,
       "name": "pipo tütünü",
       "image": "pipo.png",
-      "image_position": 0
+      "image_position": 0,
+      "is_active": true
     }
   },
   {
@@ -762,7 +842,8 @@
     "pk": 67,
     "fields": {
       "category": 13,
-      "name": "4"
+      "name": "4",
+      "is_active": true
     }
   },
   {
@@ -770,7 +851,8 @@
     "pk": 68,
     "fields": {
       "category": 13,
-      "name": "8"
+      "name": "8",
+      "is_active": true
     }
   },
   {
@@ -778,7 +860,8 @@
     "pk": 69,
     "fields": {
       "category": 13,
-      "name": "15"
+      "name": "15",
+      "is_active": true
     }
   },
   {
@@ -786,7 +869,8 @@
     "pk": 70,
     "fields": {
       "category": 13,
-      "name": "16"
+      "name": "16",
+      "is_active": true
     }
   },
   {
@@ -794,7 +878,8 @@
     "pk": 71,
     "fields": {
       "category": 13,
-      "name": "23"
+      "name": "23",
+      "is_active": true
     }
   },
   {
@@ -802,7 +887,8 @@
     "pk": 72,
     "fields": {
       "category": 13,
-      "name": "42"
+      "name": "42",
+      "is_active": true
     }
   },
   {
@@ -810,7 +896,8 @@
     "pk": 73,
     "fields": {
       "category": 13,
-      "name": "78"
+      "name": "78",
+      "is_active": true
     }
   },
   {
@@ -818,7 +905,8 @@
     "pk": 74,
     "fields": {
       "category": 14,
-      "name": "piksel"
+      "name": "piksel",
+      "is_active": true
     }
   },
   {
@@ -826,217 +914,248 @@
     "pk": 75,
     "fields": {
       "category": 14,
-      "name": "santim"
+      "name": "santim",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 1,
     "fields": {
-      "text": "{random:famous} {random:organizationMember} ile iftarda buluştu"
+      "text": "{random:famous} {random:organizationMember} ile iftarda buluştu",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 2,
     "fields": {
-      "text": "{random:game} oynarken üzerine {random:vehicle} düşen çocuk yoğun bakımda"
+      "text": "{random:game} oynarken üzerine {random:vehicle} düşen çocuk yoğun bakımda",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 3,
     "fields": {
-      "text": "{random:famous, True, e} {random:punishment} şoku"
+      "text": "{random:famous, True, e} {random:punishment} şoku",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 4,
     "fields": {
-      "text": "Bu görüntü bugün çekildi, gören şok oldu"
+      "text": "Bu görüntü bugün çekildi, gören şok oldu",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 5,
     "fields": {
-      "text": "Ünlü oyuncu twitter hesabından paylaştığı fotoğrafla hayranlarını şaşırttı"
+      "text": "Ünlü oyuncu twitter hesabından paylaştığı fotoğrafla hayranlarını şaşırttı",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 6,
     "fields": {
-      "text": "{random:town, True, de} tarihi {random:noun} bulundu"
+      "text": "{random:town, True, de} tarihi {random:noun} bulundu",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 7,
     "fields": {
-      "text": "{random:town, True, de} {random:weapon, False, li} kavga: {random:number} yaralı"
+      "text": "{random:town, True, de} {random:weapon, False, li} kavga: {random:number} yaralı",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 8,
     "fields": {
-      "text": "{random:town, True, li} mucit evde {random:noun} yaptı"
+      "text": "{random:town, True, li} mucit evde {random:noun} yaptı",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 9,
     "fields": {
-      "text": "Meteoroloji uyardı, haftasonu {random:noun} yağabilir"
+      "text": "Meteoroloji uyardı, haftasonu {random:noun} yağabilir",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 10,
     "fields": {
-      "text": "Uzmanlar yanıtladı: {random:noun} yersek orucumuz bozulur mu?"
+      "text": "Uzmanlar yanıtladı: {random:noun} yersek orucumuz bozulur mu?",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 11,
     "fields": {
-      "text": "{random:town, True, de} yapılan kazıda {random:number} {random:unit} {random:noun} ele geçirildi"
+      "text": "{random:town, True, de} yapılan kazıda {random:number} {random:unit} {random:noun} ele geçirildi",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 12,
     "fields": {
-      "text": "{random:town, True, li} bir genç kadın sevgilisini {random:weapon} ile bıçakladı"
+      "text": "{random:town, True, li} bir genç kadın sevgilisini {random:weapon} ile bıçakladı",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 13,
     "fields": {
-      "text": "Oruçluyken {random:noun} kokusu nasıl önlenir?"
+      "text": "Oruçluyken {random:noun} kokusu nasıl önlenir?",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 14,
     "fields": {
-      "text": "Kayıp {random:noun} ormanlık alanda {random:game} oynarken bulundu"
+      "text": "Kayıp {random:noun} ormanlık alanda {random:game} oynarken bulundu",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 15,
     "fields": {
-      "text": "{random:town, True, de} {random:famous} alarmı"
+      "text": "{random:town, True, de} {random:famous} alarmı",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 16,
     "fields": {
-      "text": "{random:town, True, de} {random:number} sene sonra ilk defa {random:noun} yağdı"
+      "text": "{random:town, True, de} {random:number} sene sonra ilk defa {random:noun} yağdı",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 17,
     "fields": {
-      "text": "{random:town, True, de} şüpheli {random:noun} paniği"
+      "text": "{random:town, True, de} şüpheli {random:noun} paniği",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 18,
     "fields": {
-      "text": "Hollywood filmlerini aratmayacak görüntüler!"
+      "text": "Hollywood filmlerini aratmayacak görüntüler!",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 19,
     "fields": {
-      "text": "Bu sene zam şampiyonu {random:noun}"
+      "text": "Bu sene zam şampiyonu {random:noun}",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 20,
     "fields": {
-      "text": "{random:weather, False, de} ne yapacağını şaşıran halk asfaltta {random:noun} pişirdi"
+      "text": "{random:weather, False, de} ne yapacağını şaşıran halk asfaltta {random:noun} pişirdi",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 21,
     "fields": {
-      "text": "Yoğun {random:weather} yağışı {random:vehicle} sürücülerini çileden çıkardı"
+      "text": "Yoğun {random:weather} yağışı {random:vehicle} sürücülerini çileden çıkardı",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 22,
     "fields": {
-      "text": "{random:town, True, de} {random:cigar} zammı protesto edildi"
+      "text": "{random:town, True, de} {random:cigar} zammı protesto edildi",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 23,
     "fields": {
-      "text": "{random:town, True, de} bu sabah yapılan operasyonda {random:number} adet kaçak {random:weapon} ele geçirildi"
+      "text": "{random:town, True, de} bu sabah yapılan operasyonda {random:number} adet kaçak {random:weapon} ele geçirildi",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 24,
     "fields": {
-      "text": "{random:town, True, de} tarım arazilerinde {random:bug} istilası"
+      "text": "{random:town, True, de} tarım arazilerinde {random:bug} istilası",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 25,
     "fields": {
-      "text": "{random:town, True, de} yasağa sinirlenip kepçeyle {random:noun} yediler"
+      "text": "{random:town, True, de} yasağa sinirlenip kepçeyle {random:noun} yediler",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 26,
     "fields": {
-      "text": "Asfaltta {random:noun} pişirdiler"
+      "text": "Asfaltta {random:noun} pişirdiler",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 27,
     "fields": {
-      "text": "Bilim dünyasını şok eden keşif!"
+      "text": "Bilim dünyasını şok eden keşif!",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 28,
     "fields": {
-      "text": "{random:famous} öyle bir şey dedi ki"
+      "text": "{random:famous} öyle bir şey dedi ki",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 29,
     "fields": {
-      "text": "İşte villada {random:game} oynarken yakalanan o ünlüler!"
+      "text": "İşte villada {random:game} oynarken yakalanan o ünlüler!",
+      "is_active": true
     }
   },
   {
     "model": "headline.Headline",
     "pk": 30,
     "fields": {
-      "text": "Ünlü şarkıcı {random:famous}, {random:game} oynayan arkadaşını {random:number} yerinden bıçakladı"
+      "text": "Ünlü şarkıcı {random:famous}, {random:game} oynayan arkadaşını {random:number} yerinden bıçakladı",
+      "is_active": true
     }
   }
 ]

@@ -1,69 +1,184 @@
 {% load staticfiles %}
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Humorsuz</title>
-  <style>
-    body {
-      width: 800px;
-      margin: 50px auto;
-      font-family: sans-serif;
-      line-height: 1.3em;
-    }
+  <head>
+    <meta charset="utf-8">
+    <title>Humorsuz</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/app.css' %}">
+  </head>
+  <body>
 
-    a {
-      color: #ff6262;
-    }
+    <div class="hcontainer">
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hmenu" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand-link" href="#">Humorsuz</a>
+          </div>
 
-    .cover {
-      width: 600px;
-      background-size: cover;
-      background-position: center center;
-      height: 300px;
-      overflow: hidden;
-    }
+          <div class="collapse navbar-collapse" id="hmenu">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">Gündem</a></li>
+              <li><a href="#">Dünya</a></li>
+              <li><a href="#">Ekonomi</a></li>
+              <li><a href="#">Spor</a></li>
+              <li><a href="#">Astroloji</a></li>
+              <li><a href="#">Seyahat</a></li>
+              <li><a href="#">Köşe Yazıları</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    .cover img {
-      width: 400px;
-    }
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-8">
+              <a href="#">
+                <div style="background-image: url('media/{{ news.0.background }}');" class="cover">
+                  <img src="media/{{ news.0.image }}" alt="{{ news.0.headline }}" />
+                </div>
+                <div class="cover-title">
+                  {{ news.0.headline }}
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a href="#">
+                <div style="background-image: url('media/{{ news.1.background }}');" class="featured">
+                  <img src="media/{{ news.1.image }}" alt="{{ news.1.headline }}" />
+                </div>
+                <div class="featured-title">
+                  {{ news.1.headline }}
+                </div>
+              </a>
 
-    footer {
-      margin-top: 50px;
-      border-top: 1px solid #dedede;
-    }
+              <a href="#">
+                <div style="background-image: url('media/{{ news.2.background }}');" class="featured">
+                  <img src="media/{{ news.2.image }}" alt="{{ news.2.headline }}" />
+                </div>
+                <div class="featured-title">
+                  {{ news.2.headline }}
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    footer h4 {
-      margin: 10px 0 0;
-    }
+      <div class="chosen-heading">
+        Öne Çıkanlar
+      </div>
 
-    footer p {
-      margin: 5px 0;
-    }
+      <div class="row">
+        <div class="col-md-6">
+          <a href="#" title="{{ news.3.headline }}">
+            <div class="panel">
+              <div class="panel-body" style="padding: 0px">
+                <div class="chosen-big" style="background-image: url('media/{{ news.3.background }}')">
+                  <img src="media/{{ news.3.image }}" alt="{{ news.3.headline }}" />
+                </div>
+                <div class="chosen-big-title">
+                  {{ news.3.headline }}
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-    #title {
-      margin-bottom: 9px;
-    }
+        <div class="col-md-6">
+          <a href="#" title="{{ news.4.headline }}">
+            <div class="panel">
+              <div class="panel-body" style="padding: 0px">
+                <div class="chosen-big" style="background-image: url('media/{{ news.4.background }}')">
+                  <img src="media/{{ news.4.image }}" alt="{{ news.4.headline }}" />
+                </div>
+                <div class="chosen-big-title">
+                  {{ news.4.headline }}
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
 
-    #images {
-      margin-top: 9px;
-      height: 300px;
-      overflow: hidden;
-    }
-  </style>
-</head>
-<body>
-  <h3 id="title">{{ headline }}</h3>
-  <div style="background-image: url('media/{{ background }}');" class="cover">
-    <img src="media/{{ image }}" />
-  </div>
-  <p>
-    <a href="/" id="generate" class="refresh">Değiştir</a>
-  </p>
-  <footer>
-    <h4>Humorsuz</h4>
-    <p>Rastgele haber manşetleri oluşturur. <br />
-     Taslaklar için <a href="http://github.com/fatiherikli/humorsuz">pull request</a> gönderebilirsiniz.</p>
-  </footer>
-</body>
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#" title="{{ news.7.headline }}">
+            <div class="panel">
+              <div class="panel-body" style="padding: 0px">
+                <div class="chosen" style="background-image: url('media/{{ news.7.background }}')">
+                  <img src="media/{{ news.7.image }}" alt="{{ news.7.headline }}" />
+                </div>
+                <div class="chosen-title">
+                  {{ news.7.headline|truncatechars:50 }}
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#" title="{{ news.8.headline }}">
+            <div class="panel">
+              <div class="panel-body" style="padding: 0px">
+                <div class="chosen" style="background-image: url('media/{{ news.8.background }}')">
+                  <img src="media/{{ news.8.image }}" alt="{{ news.8.headline }}" />
+                </div>
+                <div class="chosen-title">
+                  {{ news.8.headline|truncatechars:50 }}
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#" title="{{ news.9.headline }}">
+            <div class="panel">
+              <div class="panel-body" style="padding: 0px">
+                <div class="chosen" style="background-image: url('media/{{ news.9.background }}')">
+                  <img src="media/{{ news.9.image }}" alt="{{ news.9.headline }}" />
+                </div>
+                <div class="chosen-title">
+                  {{ news.9.headline|truncatechars:50 }}
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-3">
+          <a href="#" title="{{ news.10.headline }}">
+            <div class="panel">
+              <div class="panel-body" style="padding: 0px">
+                <div class="chosen" style="background-image: url('media/{{ news.10.background }}')">
+                  <img src="media/{{ news.10.image }}" alt="{{ news.10.headline }}" />
+                </div>
+                <div class="chosen-title">
+                  {{ news.10.headline|truncatechars:50 }}
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-inverse footer">
+      <div class="hcontainer">
+        <big><b>Humorsuz</b>, bir rastgele manşet haber üretecidir.</big><br>
+        Fatih Erikli'nin <a href="https://github.com/fatiherikli/humorsuz" target="_blank">başlatmış olduğu</a> bu projenin web sitesi halinin kaynak kodlarına <a href="https://github.com/halilkaya/humorsuz.com" target="_blank">buradan</a> erişebilir, geri bildirim ve yama göndererek katkıda bulunabilirsiniz.
+      </div>
+    </nav>
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+  </body>
 </html>

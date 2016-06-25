@@ -11,6 +11,11 @@ class HeadlineFormatter(object):
         self.background = None
         self.image = None
 
+    def bool(self, text):
+        if text == 'True':
+            return True
+        return False
+
     def __format__(self, text):
         params = text.split(', ')
 
@@ -29,7 +34,7 @@ class HeadlineFormatter(object):
             if len(params) == 1:
                 return obj.name
             elif len(params) == 3:
-                return conj(obj.name, params[1], params[2])
+                return conj(obj.name, self.bool(params[1]), params[2])
 
             return params[0]
         except:
@@ -66,5 +71,7 @@ def getHeadline():
 
 
 def index(request):
-    data = getHeadline()
+    data = {'news': []}
+    for i in range(11):
+        data['news'].append(getHeadline())
     return render(request, 'index.html', data)

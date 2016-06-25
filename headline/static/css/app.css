@@ -1,0 +1,106 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.3em;
+  margin: 50px auto;
+  margin-bottom: -20px !important;
+  background: #f5f5f5;
+}
+
+.hcontainer {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.brand-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.cover {
+  width: 600px;
+  background-size: cover;
+  background-position: center center;
+  height: 300px;
+  overflow: hidden;
+}
+
+.cover img {
+  width: 400px;
+}
+
+.cover-title {
+  width: 600px;
+  margin-top: 10px;
+  font-size: 24px;
+  color: #000;
+  line-height: 1.2em;
+}
+
+.featured {
+  width: 250px;
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
+  overflow: hidden;
+}
+
+.featured img {
+  width: 130px;
+}
+
+.featured-title {
+  width: 250px;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: #000;
+}
+
+.chosen-heading {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chosen-big {
+  width: 100% auto;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  overflow: hidden;
+  color: #000;
+}
+
+.chosen-big img {
+  width: 200px;
+}
+
+.chosen-big-title {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.chosen {
+  width: 100% auto;
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
+  overflow: hidden;
+  color: #000;
+}
+
+.chosen img {
+  width: 125px;
+}
+
+.chosen-title {
+  margin: 10px;
+  font-weight: bold;
+}
+
+.footer .hcontainer {
+  color: #e0e0e0 !important;
+  line-height: 2em;
+}
